@@ -19,8 +19,8 @@
 
 namespace FractalizeR\Smarty;
 
-use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Cilex\Application;
+use Cilex\ServiceProviderInterface;
 
 class ServiceProvider implements ServiceProviderInterface {
     public function register(Application $app) {
